@@ -1,0 +1,122 @@
+html {    
+    margin: 0px auto;
+    background-color: rgba(62, 190, 236, 0.2);
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 80px auto;
+    width: 70vw;            
+}
+.form-box{
+    width: 100%;
+    height: 12vh; 
+}
+.form-container{    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 55px;
+    column-gap: 40px;
+}    
+.input-box{
+    width: 100%;
+    display: flex;     
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 40px;
+}
+.input-container{        
+    margin: 0; 
+   height: 100%;
+   width: 100%;
+}
+.input{       
+    border: 2px solid rgba(10, 176, 236, 0.5);
+    border-radius: 10px;
+    background-color: rgba(92, 200, 240, 0.2);
+    padding: 10px 0 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;        
+    width: 100%;   
+    height: 31px;
+    
+}
+.input::placeholder {
+    color: rgba(10, 176, 236);
+    opacity: 1; 
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#button{
+    width: 14vw;
+    padding: 10px;
+    font-size: 15px;
+    height: 55px;   
+    border: 2px solid rgba(10, 176, 236, 0.5);
+    border-radius: 10px;
+    background-color:  rgba(92, 200, 240);
+    transition: all ease-in-out 0.3s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+#button:hover{    
+    cursor: pointer;
+}
+.contacts-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;    
+    height: 70vh;
+    border: 2px solid rgba(10, 176, 236, 0.5);
+    border-radius: 10px;
+    background-color: rgba(92, 200, 240, 0.2);
+    display: flex;    
+    align-content: flex-start; 
+    justify-content: flex-start;
+    overflow-y: auto;
+    font-family: 'Montserrat', sans-serif;  
+    flex-direction: column;  
+    row-gap: 10px;
+}
+.contacts-title{
+    padding: 20px 40px;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(10, 176, 236, 0.5);    
+    display: flex;    
+    flex-direction: row;
+    font-weight: 700;   
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(10, 176, 236);    
+   
+}
+.item-list{
+    padding: 10px 40px;
+    font-size: 20px;
+    border-bottom: 2px solid rgba(10, 176, 236, 0.5);    
+    display: flex;    
+    flex-direction: row;
+    font-weight: 400;   
+    font-family: 'Montserrat', sans-serif;  
+    color: rgba(10, 176, 236);  
+    
+}
+.contacts-title>div,
+.item-list>div{
+    display: flex;    
+    flex-basis:33.3%;    
+} 
+.msg{
+    width: 100%;
+    height: 50px;
+    padding: 15px 0 20px 10px;  
+    color: rgb(242, 10, 138);
+    font-size: 10px;
+    font-weight: 800;   
+    font-family: 'Montserrat', sans-serif;  
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">    
+        <link rel="stylesheet" href="styles.css">
+        <script src="./app.js" defer></script>
+        <title>Document</title>
+    </head>
+    <div class="form-box">
+        <div class="form-container">
+            <div class="input-box">
+                <div class="input-container">
+                    <input type="text" class="input" id="name" placeholder="Enter First Name">
+                    <div class="name-error msg"></div>    
+                </div>
+                <div class="input-container">
+                    <input type="text" class="input" id="last_name" placeholder="Enter Last Name">
+                    <div class="lastname-error msg alert"></div>                       
+                </div>
+                <div class="input-container">
+                    <input type="text" class="input" id="phone" placeholder="Enter Phone Number">
+                    <div class="phone-error msg"></div>   
+                </div>  
+            </div>          
+            <button id="button"> Add Contact</button>     
+        </div>       
+    </div>
+    <ul class="contacts-container">   
+        <li class="contacts-title">
+            <div>First Name</div>
+            <div>Last Name</div>
+            <div>Phone Number</div>
+        </li>         
+    </ul>    
+        
+    </body>
+</html>
